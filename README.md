@@ -36,6 +36,8 @@ Edit shared templates in `build.py`, styles in `dist/style.css`, and browser int
 
 Publish the contents of `dist/` to a static host supporting directory `index.html` files. No server runtime or secrets are required.
 
+For Vercel, import this repository with the repository root as Root Directory. The tracked `vercel.json` publishes `dist/` without a build step.
+
 ## Integration notes
 
 - Contact opens an email draft to `info@domtek.ca`. A server-side submission service is not connected.
